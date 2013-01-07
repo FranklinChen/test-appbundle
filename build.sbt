@@ -12,4 +12,4 @@ seq(appbundle.settings: _*)
 
 appbundle.name := "TestAppbundle"
 
-//appbundle.mainClass := Some("com.franklinchen.Main")
+appbundle.mainClass := Some("com.franklinchen.Main")
