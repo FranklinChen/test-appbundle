@@ -14,7 +14,4 @@ appbundle.name := "TestAppbundle"
 
 appbundle.mainClass := Some("com.franklinchen.Main")
 
-// Use 1.6
-// TODO For some reason, appbundle-built app fails when building with 1.7
-// LSOpenURLsWithRole() failed with error -10810
-javaHome := Some(file("/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home"))
+javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
