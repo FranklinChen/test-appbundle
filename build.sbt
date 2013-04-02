@@ -4,7 +4,7 @@ version := "1.0"
 
 organization := "com.franklinchen"
 
-scalaVersion := "2.10.0"
+scalaVersion := "2.10.1"
 
 description := "Trivial Swing app to test sbt-appbundle"
 
