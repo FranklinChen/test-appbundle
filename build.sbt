@@ -1,12 +1,18 @@
 name := "test-appbundle"
 
-version := "1.0"
-
 organization := "com.franklinchen"
 
-scalaVersion := "2.10.1"
+organizationHomepage := Some(url("http://franklinchen.com/"))
+
+homepage := Some(url("http://github.com/FranklinChen/test-appbundle"))
+
+startYear := Some(2013)
 
 description := "Trivial Swing app to test sbt-appbundle"
+
+version := "1.0"
+
+scalaVersion := "2.10.2"
 
 seq(appbundle.settings: _*)
 
