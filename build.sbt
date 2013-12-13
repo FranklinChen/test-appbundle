@@ -12,7 +12,7 @@ description := "Trivial Swing app to test sbt-appbundle"
 
 version := "1.0"
 
-scalaVersion := "2.10.2"
+scalaVersion := "2.10.3"
 
 seq(appbundle.settings: _*)
 
