@@ -20,4 +20,5 @@ appbundle.name := "TestAppbundle"
 
 appbundle.mainClass := Some("com.franklinchen.Main")
 
-javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
+// 1.7
+javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
