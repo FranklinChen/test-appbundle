@@ -8,12 +8,6 @@ Build with
 $ sbt appbundle
 ```
 
-## Using Java 1.6 works
-
-Had to put into `build.sbt`:
-
-```
-javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
-```
-
 ## Using Java 8 works
+
+I'm ignoring Java 6 and Java 7 now.
