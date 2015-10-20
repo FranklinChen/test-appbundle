@@ -15,3 +15,5 @@ Had to put into `build.sbt`:
 ```
 javacOptions ++= Seq("-source", "1.6", "-target", "1.6")
 ```
+
+## Using Java 8 works
